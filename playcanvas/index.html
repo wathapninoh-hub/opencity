@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="mg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Madagascar Driving Simulator</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.playcanvas.com/playcanvas-stable.min.js"></script>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="hud"><strong>MADAGASCAR DRIVE</strong><span id="speed">0 km/h</span><small>WASD na bokotra • Tazomy ny gaz / frein</small></div>
+<div id="controls">
+  <div class="cluster"><button data-control="left">◀</button><button data-control="right">▶</button></div>
+  <div class="cluster"><button data-control="brake">FREIN</button><button data-control="gas">GAZ</button></div>
+</div>
+<div id="loading">Manomana ny tontolo 3D…</div>
+<script src="game.js"></script>
+</body>
+</html>
